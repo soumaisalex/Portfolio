@@ -1,7 +1,8 @@
 name = "portfolio"
 pages_build_output_dir = "./dist"
 
+[build]
+command = "npm run build"
+
 [vars]
-# As variáveis confidenciais (como DATABASE_URL) devem ser cadastradas diretamente 
-# no Painel da Cloudflare Pages em Settings > Environment Variables.
 NODE_VERSION = "20"
